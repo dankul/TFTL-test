@@ -22,7 +22,7 @@
     "browser-sync": "^2.23.6",
     "browserify": "^16.2.3",
     "eslint": "^5.13.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
@@ -52,6 +52,7 @@
     "yargs": "^12.0.5"
   },
   "dependencies": {
+    "gulp-gh-pages": "^0.5.4",
     "jquery": "^3.3.1",
     "lazy-line-painter": "^1.9.6",
     "normalize.css": "^8.0.1",
