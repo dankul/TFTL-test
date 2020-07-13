@@ -1,0 +1,43 @@
+.footer__social {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-family: TTTravels-Regular;
+  font-size: 11px;
+  color: #000000;
+  transform: scale(0);
+
+  .load & {
+    transform: scale(1);
+    transition: 1s;
+  }
+
+  span {
+    display: block;
+    width: 56px;
+    height: 1px;
+    background: #393939;
+    opacity: 0.24;
+    margin-top: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+    transform: rotate(0) scale(0);
+
+    .load & {
+      transform: rotate(360deg) scale(1);
+      transition: 1s;
+    }
+  }
+
+  @media (max-width: $max-lg) {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: $max-sm) {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+}
